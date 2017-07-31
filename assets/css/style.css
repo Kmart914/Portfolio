@@ -1,15 +1,39 @@
 .landing{
-  background-image: url('https://cdn.pixabay.com/photo/2016/07/11/06/00/sunset-1509132_1280.jpg');
+  background-image: url("../images/seattle.jpg");
   height: 100vh;
-  background-repeat: no-repeat;
-  width: 100%;
+  opacity: .8;
+
+
+
 }
 
 .name{
-  text-align: center;
-  vertical-align: center;
+  color: black;
+  font-size: 40px;
+  font-family: 'Kanit', sans-serif;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+
 }
 .sam{
-  text-align: center;
-  vertical-align: center;
+  color: black;
+  font-size: 30px;
+  font-family: 'Yantramanav', sans-serif;
+  height: 90%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
 }
+
+.fom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ }
